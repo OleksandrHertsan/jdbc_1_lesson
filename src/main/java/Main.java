@@ -6,7 +6,7 @@ public class Main {
 
         CarDao carDao = new CarDao(dataBase);
 
-        carDao.insertCar(new Car(9, "Lamborghini", 1998, "yellow", "Italy"));
+        carDao.insertCar(new Car(9, "Lamborghini", 2010, "yellow", "Italy"));
 
         System.out.println(carDao.getCar(9) + "\n");
 
